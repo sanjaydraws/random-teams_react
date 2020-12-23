@@ -5,9 +5,133 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: aliceblue;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+.container{
+  height: 100vh ;
+  /* background-color: aliceblue; */
+ 
+}
+/* *,
+::after,
+::before {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+} */
+.galleries:after{
+  content: "";
+  clear: both;
+  display: block;
+
+}
+.galleries{
+  /* background-color: rgb(231, 142, 26); */
+  /* box-shadow:  0 5px 15px rgba(0, 0, 0, 0.1); 
+  border-radius: 2%; */
+
+}
+.gallery{
+ /* background-color: red; */
+ border-bottom-right-radius: 2%;
+ border-top-right-radius: 2%;
+ border-top-left-radius: 2%;
+ border-bottom-left-radius: 12%;
+ height: 150px;
+  width: 16%;
+  float: left ;
+  margin: 1%;
+  box-shadow:  0 5px 15px rgba(0, 0, 0, 0.3); 
+  padding: 1%;
+}
+.gallery img{
+  height: 75px;
+  width: 75px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 4rem;
+  margin-left: 4rem;
+  box-shadow:  0 5px 15px rgba(0, 0, 0, 0.4); 
+   /* text-align: center; */
+
+}
+
+.gallery h4{
+  /* background-color: aquamarine; */
+ margin: 3px 3px 2px 3px;
+  text-align: center;
+  color: cadetblue;
+ 
+}
+.gallery h5{
+  /* background-color: aquamarine; */
+  margin-top: 2px;
+  text-align: center;
+  color: rgb(131, 131, 97);
+  margin: 3px 3px 2px 3px;
+
+}
+.gallery h6{
+  /* background-color: aquamarine; */
+  margin-top: 2px;
+  text-align: center;
+  margin: 3px 3px 2px 3px;
+
+}
+.gallery h4,h5,h6{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+  Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* .gallery:hover{
+  box-shadow: 0px 15px 20px rgba(62, 201, 219, 0.459);
+  transform:translateY(-7px);
+} */
+
+.wrap{
+  /* background-color: red; */
+  clear: left;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 2px 2px 15px 2px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.buttonp{
+  width: 140px;
+  height: 40px;
+  font-family:  'Roboto', sans-serif;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500px;
+  color:#000;
+  background-color: #fff;
+  border:none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer; 
+  outline:none;
+  
+}
+
+
+
+
+.six:hover{
+  background-color: #00e8f8; 
+  box-shadow: 0px 15px 20px rgba(62, 201, 219, 0.459);
+  color:#fff;
+  transform:translateY(-7px);
 }

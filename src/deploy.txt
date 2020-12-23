@@ -1,0 +1,6 @@
+E:\programs\reactprogram\randomteam>npm run build 
+
+
+then drag and drop to build folder to netlify 
+
+

@@ -1,0 +1,19 @@
+import WestIndies from './content/WestIndies'
+import India from './content/India'
+import Australia from "./content/Australia"
+import NewZealand from "./content/Newzealand"
+import England from "./content/England" 
+
+
+export default  [WestIndies, India, Australia,England,NewZealand]
+
+
+
+
+
+
+
+// data = [WestIndies, India, Australia]
+// console.log(data);
+
+
