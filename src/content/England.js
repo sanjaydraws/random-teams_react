@@ -2,7 +2,7 @@ export default [
     {
         id: 1,
         imageUrl:"https://www.cricbuzz.com/a/img/v1/152x152/i1/c170936/eoin-morgan.jpg",
-        playerName: 'Eoin Morgan',
+        playerName: 'Eoin Morgan(C)',
         type: 'Batsman',
         highestScore: 148,
         '50': 46,

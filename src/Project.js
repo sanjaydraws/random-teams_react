@@ -8,12 +8,16 @@ function Project() {
     const [team, setTeam] = useState(data[0]);
     // console.log(team.length);
     const randomTeam = () =>{
-       var index = Math.floor(Math.random() * (5 - 0) ) + 0; 
+       var index = Math.floor(Math.random() * (data.length - 0) ) + 0; 
        setTeam(data[index]);
     }
 
+
+
+
+    
     return (
-        <div className="container">
+        <div className="container"> 
            <Gallery team = {team}/>
            <div className="wrap">
               <button className="buttonp six" onClick ={randomTeam}>Random Team</button>
@@ -22,4 +26,26 @@ function Project() {
     )
 }
 
+
+
 export default Project
+
+                 
+                  
+       
+                        
+           
+
+
+    
+
+           
+   
+            
+                     
+       
+     
+                    
+
+
+

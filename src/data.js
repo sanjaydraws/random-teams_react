@@ -5,7 +5,7 @@ import NewZealand from "./content/Newzealand"
 import England from "./content/England" 
 
 
-export default  [WestIndies, India, Australia,England,NewZealand]
+export default  [India,WestIndies, Australia,England,NewZealand]
 
 
 
